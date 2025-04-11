@@ -173,7 +173,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  collectibleClip: {fileID: 0}
+  cannon: {fileID: 3700162896217150025}
+  cannonTip: {fileID: 8163643582601189935}
+  bulletPrefab: {fileID: 6013914428737622275, guid: cf22cdb74cca14779b7d7053647f14ae, type: 3}
+  shootCooldown: 0.5
 --- !u!82 &5714879034641960401
 AudioSource:
   m_ObjectHideFlags: 0
